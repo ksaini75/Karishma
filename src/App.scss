@@ -1,0 +1,73 @@
+@import "~bootstrap/scss/bootstrap";
+$font-size-base: 0.9rem !default;
+$font-family-sans-serif: "Roboto",
+sans-serif !default;
+$bg-secondary: #fff;
+$bg-primary: #f08a98;
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: $bg-primary;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
+    color: white;
+}
+
+
+
+.nav-top {
+    background-color: $bg-primary;
+    opacity: .95;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #c3557a;
+}
+
+.nav-title {
+    color: $bg-secondary !important;
+}
+
+.bg-light {
+    background-color: $bg-primary !important;
+}
+
+.oblique-text {
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.primary-color {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+
+    .nav-title {
+        font-size: 5vw;
+    }
+
+}
+
+
+@media only screen and (max-width:280px) {
+    .nav-title {
+        font-size: 4vw;
+    }
+}
