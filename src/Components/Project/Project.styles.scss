@@ -15,14 +15,14 @@ $bg-primary: #f08a98;
 }
 
 .project-title {
-    margin-top: 8%;
-    color: $bg-secondary;
+    padding-top: 8%;
+    color: $bg-primary;
     text-align: center;
 }
 
 
 .project-container {
-    margin-top: 5%;
+    margin-top: 8.5%;
     background-color: white !important;
 
 }
@@ -57,16 +57,25 @@ $bg-primary: #f08a98;
 
 .view-project {
 
-    color: white;
+    color: $bg-primary;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    background-color: #c3557a;
+    background-color: #f3eded;
     border-radius: 5px;
     margin: 0 auto;
     width: 15vw;
 
+
 }
+
+.project-link{
+    display: inline-block;
+    margin: 20px !important;
+    margin: 0 auto;
+}
+
+
 
 .projectCard {
 
@@ -80,10 +89,21 @@ a:hover {
     text-decoration: none !important;
 }
 
+
+@media only screen and (max-width:991px) {
+    .project-link{
+        display: inline-block;
+        margin: 20px !important;
+  
+    }
+
+}
+
+
 @media only screen and (max-width:768px) {
     .view-project {
 
-        width: 37vw;
+        width: 37vw !important;
 
     }
 
