@@ -34,10 +34,14 @@ const AboutPage = () => {
         
         
           <p className='about-body'>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</p>
+          I’ll always love art. Art invites creative ideas to come alive and provides an environment to express myself as an individual who loves to create intricate henna style designs. 
+          I leverage my creative skills to develop beautiful, user-friendly websites. 
+          As a front-end developer, it is critical that my websites are responsive, have properly positioned components, and have pleasing color schemes. 
+          The latter is where my artistic skills come into play. When painting, I choose color palettes that will attract my audience’s eye. 
+          When developing a website, I use color to draw the user to important areas of the page, making it easy to navigate. 
+          As a self-taught UX designer, I learned the importance of creating user-friendly websites. I have learned how to create mock-ups and wireframes to develop such websites. 
+          I couldn’t predict that web design and development would become my passion. 
+          It’s interesting how being an artist allows me to expand my skill set into the roles of a developer and UX designer.</p>
        </Col>
    </Row>
     </Container>

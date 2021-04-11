@@ -1,34 +1,40 @@
-.about-container{
+$bg-secondary: #fff;
+$bg-primary: #f08a98;
+
+.about-container {
     margin-top: 5%;
 }
 
-.about-profile{
+.about-profile {
     width: 20vw;
-   
+
 }
 
-.Typewriter{
+.Typewriter {
     margin-top: 5%;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color:white;
+    color: white;
 }
-.about-title{
+
+.about-title {
     margin-top: 5%;
     text-align: center;
 }
-.about-body{
-    margin-top:20px;
+
+.about-body {
+    margin-top: 20px;
     margin: 50px;
+    color: $bg-secondary;
 }
 
 @media only screen and (max-width:768px) {
-    .about-profile{
+    .about-profile {
         width: 50.5vw;
         margin-left: -91%;
-       
+
     }
-   
+
 
 }
