@@ -15,8 +15,6 @@ import ErikaUX from '../../Documents/ErikaMoyaUX.pdf';
 import GeorgeUX from '../../Documents/GeorgePortfolioUX.pdf';
 import KCElectricialContractorUX from '../../Documents/KCElectricalContractor.pdf';
 
-
-
 import './Project.styles.scss';
 
 
@@ -26,11 +24,15 @@ class ProjectPage extends React.Component {
      <React.Fragment>
      
      <div className='project-div'>
+     <FadeIn transitionDuration="2000">
         <Container className="project-title" id="Projects">
+       
             <h1>Projects</h1>
+      
         </Container>
+        </FadeIn>
 
-        <FadeIn transitionDuration="3000">
+        <FadeIn transitionDuration="4500">
       <Container className="project-container">
         <Jumbotron className="project-jumbo" fluid>
             <Container>
