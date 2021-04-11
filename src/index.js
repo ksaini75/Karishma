@@ -5,7 +5,7 @@ import Navigation from './Components/Navigation/Navigation.js';
 import AboutPage from './Components/About/AboutPage';
 import ProjectPage from './Components/Project/ProjectPage';
 // import ContactPage from './Components/ContactPage/ContactPage';
-// import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 
 
 import './App.scss';
@@ -22,7 +22,7 @@ const routing = (
                        <Route path='/Projects' exact component={ProjectPage} />
                     {/* <Route path='/Contact' exact component={ContactPage} /> */}
                 </Switch>
-                {/* <Footer /> */}
+                <Footer />
         </Router>
 
 )
