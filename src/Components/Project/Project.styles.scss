@@ -4,20 +4,16 @@ sans-serif !default;
 $bg-secondary: #fff;
 $bg-primary: #f08a98;
 
-
-
-
 .project-div {
     padding-bottom: 10%;
     background-color: $bg-secondary;
-
-
 }
 
 .project-title {
     padding-top: 8%;
     color: $bg-primary;
     text-align: center;
+    font-family: 'Yellowtail', cursive;
 }
 
 
@@ -32,7 +28,6 @@ $bg-primary: #f08a98;
     background-color: white !important;
     margin: 0 !important;
     padding: 0 !important;
-
 }
 
 .project-subtitle {
@@ -44,7 +39,6 @@ $bg-primary: #f08a98;
 .project-tools {
 
     color: #c3557a;
-    ;
     text-align: center;
 }
 
@@ -53,7 +47,6 @@ $bg-primary: #f08a98;
     color: black;
     font-size: 18px;
     text-align: center;
-
 }
 
 .view-project {
@@ -96,7 +89,7 @@ a:hover {
     .project-link {
         display: inline-block;
         margin: 14% !important;
- 
+
 
     }
 
@@ -107,9 +100,10 @@ a:hover {
     .view-project {
 
         width: 37vw !important;
-        font-size: 17px  !important;
+        font-size: 17px !important;
 
     }
+
     .project-link {
         display: inline-block;
         margin: 7px !important;
@@ -126,6 +120,7 @@ a:hover {
         font-size: 15px;
 
     }
+
     .project-link {
         display: inline-block;
         margin: 5px !important;

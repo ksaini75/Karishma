@@ -13,25 +13,24 @@ import './AboutPage.styles.scss';
 const AboutPage = () => {
 
    return(
-<React.Fragment>
-    <div>
-    <Container className="about-container">
-   <Row className='justify-content-center'>
-       <Col xs={3} >
-           <Image className='about-profile ' src={karishma_profile} />
-       </Col>
-   </Row>
-   <Row>
-       <Col md={12}>
-     
-       <Typewriter  options={{
-    strings: ['Hello I\'m Karishma', 'Front-end Developer', 'UX Designer', 'Artist'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
-         
-        
+            <React.Fragment>
+                <div>
+                <Container className="about-container">
+            <Row className='justify-content-center'>
+                <Col xs={3} >
+                    <Image className='about-profile ' src={karishma_profile} />
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12}>
+                
+                <Typewriter  options={{
+                strings: ['Hello I\'m Karishma', 'Front-end Developer', 'UX Designer', 'Artist'],
+                autoStart: true,
+                loop: true,
+            }}
+            />
+                    
         
           <p className='about-body'>
           I’ll always love art. Art invites creative ideas to come alive and provides an environment to express myself as an individual who loves to create intricate henna style designs. 

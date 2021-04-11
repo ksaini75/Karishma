@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+
 $font-size-base: 0.9rem !default;
 $font-family-sans-serif: "Roboto",
 sans-serif !default;
@@ -21,6 +22,7 @@ body {
     background: #c3557a !important;
     color: $bg-secondary !important;
 }
+
 .Toastify__progress-bar {
     background-color: $bg-primary !important;
 }
@@ -45,6 +47,7 @@ body {
 
 .nav-title {
     color: $bg-secondary !important;
+    font-family: 'Yellowtail', cursive;
 }
 
 .bg-light {
