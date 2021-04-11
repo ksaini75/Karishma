@@ -1,0 +1,126 @@
+$text: center;
+$line: 1.2;
+$bg-primary: #f08a98;
+$bg-secondary: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.contact-header {
+    margin-top: 10%;
+    font-size: 3vw;
+    line-height: $line;
+    text-align: $text;
+    margin-bottom: 6.5rem;
+    color: $bg-secondary;
+    font-family: 'Yellowtail', cursive;
+}
+
+.contact-form {
+    width: 35vw !important;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    color: white;
+    text-align: center;
+
+}
+
+.contact-info {
+    font-size: 1vw;
+    font-family: 'Roboto';
+}
+
+
+.form-control {
+    border: 2px solid $bg-primary !important;
+    border-radius: 5px !important;
+}
+
+.btn-primary:hover {
+    color: $bg-primary !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #c3557a !important;
+    border-color: #c3557a !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: $bg-primary !important;
+    border-color: $bg-primary !important;
+}
+
+.form-control:focus {
+
+    box-shadow: 5px 5px 7px #c3557a !important;
+}
+
+.btn-primary:focus {
+
+    box-shadow: 5px 5px 7px #c3557a !important;
+}
+
+
+
+@media only screen and (max-width:1024px) {
+
+
+    .contact-header {
+        margin-top: 21% !important;
+        font-size: 6.5vw;
+        line-height: $line;
+        text-align: $text;
+        font-family: 'Yellowtail', cursive;
+        margin: 0;
+    }
+
+
+
+    .contact-info {
+        font-size: 5vw;
+        font-family: 'Roboto';
+    }
+
+
+    .contact-form {
+        margin-top: 13% !important;
+        width: 65vw !important;
+
+        margin-bottom: 28% !important;
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .contact-header {
+        margin-top: 23% !important;
+        font-size: 9.5vw;
+        line-height: $line;
+        text-align: $text;
+        font-family: 'Yellowtail', cursive;
+        margin: 0;
+    }
+
+
+
+    .contact-info {
+        font-size: 3.3vw;
+        font-family: 'Roboto';
+    }
+
+
+    .contact-form {
+        width: 70vw !important;
+        margin: 0 auto;
+    }
+
+
+}

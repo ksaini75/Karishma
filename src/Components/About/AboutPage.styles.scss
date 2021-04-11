@@ -1,5 +1,6 @@
 $bg-secondary: #fff;
 $bg-primary: #f08a98;
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 .about-container {
     margin-top: 5%;
@@ -16,6 +17,7 @@ $bg-primary: #f08a98;
     font-size: 30px;
     font-weight: bold;
     color: white;
+    font-family: 'Yellowtail', cursive;
 }
 
 .about-title {

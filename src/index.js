@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from './Components/Navigation/Navigation.js';
 import AboutPage from './Components/About/AboutPage';
 import ProjectPage from './Components/Project/ProjectPage';
-// import ContactPage from './Components/ContactPage/ContactPage';
+import ContactPage from './Components/Contact/ContactPage';
 import Footer from './Components/Footer/Footer';
 
 
@@ -20,7 +20,7 @@ const routing = (
                         <Route path='/' exact component={AboutPage} />
                         <Route path='/About' exact component={AboutPage} />
                        <Route path='/Projects' exact component={ProjectPage} />
-                    {/* <Route path='/Contact' exact component={ContactPage} /> */}
+                       <Route path='/Contact' exact component={ContactPage} />
                 </Switch>
                 <Footer />
         </Router>
