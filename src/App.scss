@@ -16,6 +16,16 @@ body {
     background-color: $bg-primary;
 }
 
+
+.Toastify__toast--warning {
+    background: #c3557a !important;
+    color: $bg-secondary !important;
+}
+.Toastify__progress-bar {
+    background-color: $bg-primary !important;
+}
+
+
 .navbar-light .navbar-nav .nav-link {
     font-size: 17px;
     color: white;
