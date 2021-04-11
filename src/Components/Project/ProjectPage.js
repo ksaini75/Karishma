@@ -56,7 +56,7 @@ class ProjectPage extends React.Component {
                                 <p className="view-project"> View Project</p>
                             </a>
 
-                            <a className="project-link" href={GeorgeUX} rel="noreferrer" download>
+                            <a className="project-link" href={GeorgeUX} target="_blank" rel="noreferrer">
                                 <p className="view-project"> UX Document</p>
                             </a>
                         </Col>
@@ -92,7 +92,7 @@ class ProjectPage extends React.Component {
                                 <p className="view-project"> View Project</p>
                             </a>
 
-                            <a className="project-link" href={KCElectricialContractorUX} rel="noreferrer" download>
+                            <a className="project-link" href={KCElectricialContractorUX} target="_blank" rel="noreferrer">
                                 <p className="view-project"> UX Document</p>
                             </a>
 
@@ -129,7 +129,7 @@ class ProjectPage extends React.Component {
                                 <p className="view-project"> View Project</p>
                             </a>
 
-                            <a className="project-link" href={ErikaUX} rel="noreferrer" download>
+                            <a className="project-link" href={ErikaUX} rel="noreferrer" target="_blank">
                                 <p className="view-project"> UX Document</p>
                             </a>
                         </Col>
