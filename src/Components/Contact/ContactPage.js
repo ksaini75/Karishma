@@ -64,6 +64,9 @@ const ContactPage = () => {
                     buttons: { cancel: null }
 
                 });
+
+              //  console.log('userid' + ''+ process.env.REACT_APP_SERVICE_ID);
+                console.log(error);
             });
             clearForm();
             }
